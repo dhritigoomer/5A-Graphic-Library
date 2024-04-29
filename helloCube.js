@@ -95,14 +95,14 @@ function main() {
     {
         const objLoader = new OBJLoader();
 		const mtlLoader = new MTLLoader();
-		mtlLoader.load( './public/indoor-plant/indoor-plant.mtl', ( mtl ) => {
+		mtlLoader.load( './indoor-plant/indoor-plant.mtl', ( mtl ) => {
 
 			mtl.preload();
             for (const material of Object.values(mtl.materials)) {
                 material.side = THREE.DoubleSide;
             }
 			objLoader.setMaterials( mtl );
-			objLoader.load( './public/indoor-plant/indoor-plant.obj', ( root ) => {
+			objLoader.load( './indoor-plant/indoor-plant.obj', ( root ) => {
                 root.position.set(6, 0, 0);
 				scene.add( root );
 			} );
