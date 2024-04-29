@@ -62,12 +62,12 @@ function main() {
     }
 
     const materials = [
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-1.jpg' ) } ),
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-2.jpg' ) } ),
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-3.jpg' ) } ),
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-4.jpg' ) } ),
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-5.jpg' ) } ),
-		new THREE.MeshBasicMaterial( { map: loadColorTexture( './flower-6.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-1.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-2.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-3.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-4.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-5.jpg' ) } ),
+		new THREE.MeshBasicMaterial( { map: loadColorTexture( './puppy-6.jpg' ) } ),
 	];
 
     const cubes = [
